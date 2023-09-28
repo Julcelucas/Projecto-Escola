@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url('../Fontes/H1/LEMONMILK.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Chivo';
+    src: url('../Fontes/H2/Chivo.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('../Fontes/H3/Bricolage\ Grotesque.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Asap';
+    src: url('../Fontes/P/Asap.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fontes/P/Roboto.ttf') format('truetype');
+}
+
+:root{
+    --cor1: #FFFFFF;    --fonteh1: 'LEMONMILK', Arial, Verdana;
+    --cor2: #2222FF;    --fonteh2: 'Chivo', Arial, Verdana;  
+    --cor3: #3E3E80;    --fonteh3: 'Bricolage Grotesque', Arial, Verdana;
+    --cor4: #1B1BCC;    --fontep1: 'Asap', Arial, Verdana,sans-serif;
+    --cor5: #111180;    --fontep2: 'Roboto', Arial, Verdana, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonteh3);
+    background: black url("../Imagens/imagem6.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+main{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    color: white;
+    max-width: 800px;
+    min-width: 320px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5em;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+h1{
+    font-family: var(--fonteh2);
+    color: var(--cor5);
+    background-image: linear-gradient(to left, var(--cor3), var(--cor1));
+    font-size: 2em;
+
+}
+
+h2{
+    padding-bottom: 25px;
+    font-family: var(--fonteh2);
+    background-image: linear-gradient(to left, var(--cor3), var(--cor1));
+    color: var(--cor5);
+}
+
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: var(--fontep1);
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 25px;  
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+li{
+    list-style-position: inside; 
+    line-height: 2em;  
+}
