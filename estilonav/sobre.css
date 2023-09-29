@@ -48,35 +48,43 @@ main{
     min-width: 320px;
     padding: 30px;
     padding-top: 10px;
+    padding-bottom: 28vh;
     margin-left: 50px;
     margin-right: 50px;
     line-height: 1.5em;
     border: 1px solid rgba(0, 0, 0, 0.295);
 }
-   
+
 hr{
     margin-top: 50px;
-    
+   
 }
+h1{
+    font-family: var(--fonteh1);
+    background-image: linear-gradient(to left, var(--cor3), var(--cor1));
+    color: var(--cor5);
+}
+
 h2{
     font-family: var(--fonteh2);
     background-image: linear-gradient(to left, var(--cor3), var(--cor1));
     color: var(--cor5);
 }
-.div1{
-    padding-bottom: 30px;
-}
-.div2{
+
+div{
     padding-top: 10px;
-    padding-bottom: 30px;
+}
+div.especial{
+    padding-bottom: 0px;
 }
 
 li{
     list-style-position: inside; 
-    line-height: 2em;  
+    line-height: 2em; 
+    padding-top: 10px; 
 }
 
 p{
-    padding-top: 10px;
-    font-weight: bolder;
+    padding-top: 10px; 
+    font-family: var(--fontep1);
 }

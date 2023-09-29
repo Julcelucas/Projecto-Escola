@@ -132,7 +132,6 @@ main{
     margin-right: 50px;
     padding-top: 20px;
     margin-bottom: 0px;
-    text-indent: 30px;
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.315);
    line-height: 40px;
    padding-right: 10px;
@@ -165,8 +164,9 @@ main h3{
     margin-top: 40px;
 }
 main p{
-    line-height: 25px;
+    line-height: 2em;
     text-align: justify;
+    padding: 15px;
 }
 main>article.art1{
     margin-bottom: 30px;
@@ -185,11 +185,12 @@ li{
     list-style-position: inside;   
 }
 main strong a{
-    text-decoration: underline;
-    color: rgb(1, 1, 43);
+    text-decoration: none;
+    color: black;
 }
 main strong a:hover{
     background-color: var(--cor1);
+    text-decoration: underline;
 }
 
 
@@ -197,31 +198,34 @@ main strong a:hover{
 aside{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
-    font-family: var(--fontep1);
-    padding: 30px;
-    margin-top: 30px;
+    font-family: var(--fontep2);
+    padding: 10px;
+    padding-bottom: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
     border-radius: 12px 18px 0px 0px;
     padding-bottom: 20px;
     text-indent: 12px;
-    padding-bottom: 80px;
-    font-size: 1.2em;
+    font-size: 1em;
        
 }
 aside h2{
     margin: -30px -30px 0px -30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
+    
+   
    
 }
 
+hr{
+    margin-top: 40px;
+    
+}
 
 footer{
     background-color: var(--cor5); 
     font-family: var(--fonteh5);
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: lighter;
     margin-top: 5px;
     padding-bottom: 70px;
@@ -234,7 +238,7 @@ footer{
 }
 footer abbr{
     text-decoration: none;
-    color: rgb(70, 77, 90);
+    color: black;
     
 }
 footer abbr:hover{
@@ -245,13 +249,15 @@ footer abbr:hover{
 }
 
 p.p2{
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 p.p3{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 p.p5{
-    padding-top: 40px;
+    padding-top: 10px;
 }
 footer nav{
    margin-top: 30px; 
@@ -267,14 +273,19 @@ footer nav a{
     color: white;   
 }
 footer p a.a22{
-    text-decoration: underline; 
+    text-decoration: none; 
     color: white;
+}
+footer p a.a22:hover{
+    text-decoration: underline;
 }
 footer nav a:hover{
     background-color: var(--cor2);
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.658);
     transition-duration: 0.8s;
+    text-decoration: underline;
 }
+
 
     
     

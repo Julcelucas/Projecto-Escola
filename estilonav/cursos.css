@@ -47,12 +47,17 @@ main{
     max-width: 800px;
     min-width: 320px;
     padding: 30px;
+    padding-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
     line-height: 1.5em;
     border: 1px solid rgba(0, 0, 0, 0.295);
 }
 
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 h1{
     font-family: var(--fonteh2);
     color: var(--cor5);
